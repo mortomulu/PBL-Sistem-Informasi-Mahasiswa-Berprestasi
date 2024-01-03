@@ -1,0 +1,278 @@
+{
+  "resolvedId": "/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/pages/kepengurusan.vue?macro=true",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n  <section>\n    <h1>ini halaman Kepengurusan</h1>\n  </section>\n</template>\n",
+      "start": 1702536593664,
+      "end": 1702536594856,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702536594856,
+      "end": 1702536594856,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702536594856,
+      "end": 1702536594856,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702536594856,
+      "end": 1702536594856,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702536594856,
+      "end": 1702536594856,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702536594856,
+      "end": 1702536594856,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702536594856,
+      "end": 1702536594856,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702536594856,
+      "end": 1702536594856,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702536594856,
+      "end": 1702536594856,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702536594856,
+      "end": 1702536594856,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<section${_ssrRenderAttrs(_attrs)}><h1>ini halaman Kepengurusan</h1></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/kepengurusan.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
+      "start": 1702536594856,
+      "end": 1702536594858,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/pages/kepengurusan.vue"
+        ],
+        "names": [],
+        "mappings": "",
+        "file": "/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/pages/kepengurusan.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\n  <section>\n    <h1>ini halaman Kepengurusan</h1>\n  </section>\n</template>\n"
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702536594858,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702536594859,
+      "end": 1702536594859,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702536594859,
+      "end": 1702536594933,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702536594859,
+      "end": 1702536594933,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702536594933,
+      "end": 1702536594933,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702536594933,
+      "end": 1702536594933,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1702536594933,
+      "end": 1702536594933,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;AAAA"
+      }
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1702536594933,
+      "end": 1702536594933,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;AAAA"
+      }
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702536594933,
+      "end": 1702536594933,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702536594933,
+      "end": 1702536594933,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702536594933,
+      "end": 1702536594933,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702536594933,
+      "end": 1702536594933,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702536594933,
+      "end": 1702536594933,
+      "order": "normal"
+    }
+  ]
+}

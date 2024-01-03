@@ -1,0 +1,214 @@
+{
+  "resolvedId": "/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/components/section/Hero.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n  <section id=\"home\" class=\"pt-20 pb-32\">\n    <div class=\"container\">\n      <div class=\"flex flex-wrap\">\n        <div\n          class=\"w-full self-center pl-8 lg:w-1/2 xl:w-1/2\"\n          data-aos=\"fade-up-right\"\n          data-aos-duration=\"3000\">\n          <h1\n            class=\"font-medium text-md text-white font-poppins mb-8 text-[#FFC436]\">\n            Sistem Informasi Mahasiswa Berprestasi ( SIMAPRES)\n          </h1>\n          <p class=\"text-5xl font-bold font-poppins text-white\">\n            \" Inspirasi, Inovasi, dan Prestasi: Membangun Masa Depan Unggul \"\n          </p>\n          <p\n            class=\"text-base font-light text-yellow-200 py-12 font-poppins line-clamp-3\">\n            Selamat datang di Sistem Informasi Mahasiswa Berprestasi! Temukan\n            informasi terkini dan peluang-peluang menarik untuk meningkatkan\n            prestasi akademis Anda.\n          </p>\n\n          <div class=\"\">\n            <a\n              href=\"#\"\n              class=\"text-base font-semibold text-white bg-blue-500 py-3 px-8 rounded-full hover:shadow-lg hover:bg-white hover:text-yellow-300 transition duration-300 ease-in-out\"\n              >Learn More</a\n            >\n          </div>\n        </div>\n        <div class=\"w-full self-end px-4 lg:w-1/2 xl:w-1/2\">\n          <div class=\"relative mt-10 xl:mt-9 xl:right-0 w-[550px]\">\n            <img\n              src=\"~/assets/images/Hero Section 2.png\"\n              alt=\"Adhicakra\"\n              class=\"w-full mx-auto\" />\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</template>\n",
+      "start": 1702536588847,
+      "end": 1702536589331,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702536589332,
+      "end": 1702536589332,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702536589332,
+      "end": 1702536589332,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702536589332,
+      "end": 1702536589332,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702536589332,
+      "end": 1702536589332,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702536589332,
+      "end": 1702536589332,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702536589332,
+      "end": 1702536589332,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702536589332,
+      "end": 1702536589332,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from 'assets/images/Hero Section 2.png'\n\n\nconst _hoisted_1 = {\n  id: \"home\",\n  class: \"pt-20 pb-32\"\n}\nconst _hoisted_2 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"container\\\"><div class=\\\"flex flex-wrap\\\"><div class=\\\"w-full self-center pl-8 lg:w-1/2 xl:w-1/2\\\" data-aos=\\\"fade-up-right\\\" data-aos-duration=\\\"3000\\\"><h1 class=\\\"font-medium text-md text-white font-poppins mb-8 text-[#FFC436]\\\"> Sistem Informasi Mahasiswa Berprestasi ( SIMAPRES) </h1><p class=\\\"text-5xl font-bold font-poppins text-white\\\"> &quot; Inspirasi, Inovasi, dan Prestasi: Membangun Masa Depan Unggul &quot; </p><p class=\\\"text-base font-light text-yellow-200 py-12 font-poppins line-clamp-3\\\"> Selamat datang di Sistem Informasi Mahasiswa Berprestasi! Temukan informasi terkini dan peluang-peluang menarik untuk meningkatkan prestasi akademis Anda. </p><div class=\\\"\\\"><a href=\\\"#\\\" class=\\\"text-base font-semibold text-white bg-blue-500 py-3 px-8 rounded-full hover:shadow-lg hover:bg-white hover:text-yellow-300 transition duration-300 ease-in-out\\\">Learn More</a></div></div><div class=\\\"w-full self-end px-4 lg:w-1/2 xl:w-1/2\\\"><div class=\\\"relative mt-10 xl:mt-9 xl:right-0 w-[550px]\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"Adhicakra\\\" class=\\\"w-full mx-auto\\\"></div></div></div></div>\", 1)\nconst _hoisted_3 = [\n  _hoisted_2\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, _hoisted_3))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1702536589332,
+      "end": 1702536589335,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702536589335,
+      "end": 1702536589335,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702536589335,
+      "end": 1702536589336,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702536589336,
+      "end": 1702536589336,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702536589336,
+      "end": 1702536589336,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702536589337,
+      "end": 1702536589337,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702536589337,
+      "end": 1702536589337,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702536589337,
+      "end": 1702536589337,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702536589338,
+      "end": 1702536589338,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702536589338,
+      "end": 1702536589338,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702536589338,
+      "end": 1702536589338,
+      "order": "normal"
+    }
+  ]
+}

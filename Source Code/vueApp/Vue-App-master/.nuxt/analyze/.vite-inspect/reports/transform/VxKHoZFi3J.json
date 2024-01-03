@@ -1,0 +1,222 @@
+{
+  "resolvedId": "/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/components/section/Fitur.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, resolveComponent as _resolveComponent, createVNode as _createVNode, toDisplayString as _toDisplayString } from \"vue\"\n\nconst _hoisted_1 = {\n  id: \"fitur\",\n  class: \"pt-10 pb-10 md:pt-20\"\n}\nconst _hoisted_2 = { class: \"container space-y-12\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text-center\" }, [\n  /*#__PURE__*/_createElementVNode(\"h1\", { class: \"text-white text-xl md:text-2xl font-bold\" }, \"Analytics\"),\n  /*#__PURE__*/_createElementVNode(\"p\", { class: \"max-w-2xl mx-auto text-[#FFC436]\" }, \" Analisis Terkini Terkait Data yang diterima di SIMAPRES \")\n], -1)\nconst _hoisted_4 = { class: \"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4\" }\nconst _hoisted_5 = { class: \"text-lg md:text-xl text-white hover:text-black font-bold\" }\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Fitur',\n  setup(__props) {\n\nconst items = [\n  {\n    icon: \"heroicons:document-check\",\n    title: \"Peningkatan Prestasi Mahasiswa dari tahun ke tahun\",\n    description:\n      \"Analisis Menunjukkan bahwa pada tahun ini meningkat sebanyak 13% \",\n  },\n  {\n    icon: \"heroicons:chart-bar\",\n    title: \"Peningkatan Mahasiswa Berprestasi Tahun 2023\",\n    description:\n      \"Berdasarkan analisis Mahasiswa Menyumbang prestasi pada tahun ini sebanyak 200+ Mahasiswa\",\n  },\n  {\n    icon: \"heroicons:academic-cap\",\n    title: \"Dominasi Prestasi\",\n    description:\n      \"Berdasarkan Analisis Prestasi Mahasiswa Vokasi lebih banyak ke Prestasi Akademik pada jenis Olahraga\",\n  },\n];\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_Icon = _resolveComponent(\"Icon\")!\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        (_openBlock(), _createElementBlock(_Fragment, null, _renderList(items, (item, index) => {\n          return _createElementVNode(\"div\", {\n            key: index,\n            class: \"p-4 rounded space-y-2 border border-slate-800 hover:bg-[#FFC436] hover:border-none hover:text-black transition text-center\"\n          }, [\n            _createVNode(_component_Icon, {\n              name: item.icon,\n              size: \"3em\",\n              class: \"text-white\"\n            }, null, 8, [\"name\"]),\n            _createElementVNode(\"h2\", _hoisted_5, _toDisplayString(item.title), 1),\n            _createElementVNode(\"p\", null, _toDisplayString(item.description), 1)\n          ])\n        }), 64))\n      ])\n    ])\n  ]))\n}\n}\n\n})",
+      "start": 1702536589725,
+      "end": 1702536589726
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702536589726,
+      "end": 1702536589726,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702536589726,
+      "end": 1702536589727,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702536589727,
+      "end": 1702536589727,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702536589727,
+      "end": 1702536589727,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, resolveComponent as _resolveComponent, createVNode as _createVNode, toDisplayString as _toDisplayString } from \"vue\";\nconst _hoisted_1 = {\n  id: \"fitur\",\n  class: \"pt-10 pb-10 md:pt-20\"\n};\nconst _hoisted_2 = { class: \"container space-y-12\" };\nconst _hoisted_3 = /* @__PURE__ */ _createElementVNode(\"div\", { class: \"text-center\" }, [\n  /* @__PURE__ */ _createElementVNode(\"h1\", { class: \"text-white text-xl md:text-2xl font-bold\" }, \"Analytics\"),\n  /* @__PURE__ */ _createElementVNode(\"p\", { class: \"max-w-2xl mx-auto text-[#FFC436]\" }, \" Analisis Terkini Terkait Data yang diterima di SIMAPRES \")\n], -1);\nconst _hoisted_4 = { class: \"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4\" };\nconst _hoisted_5 = { class: \"text-lg md:text-xl text-white hover:text-black font-bold\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Fitur\",\n  setup(__props) {\n    const items = [\n      {\n        icon: \"heroicons:document-check\",\n        title: \"Peningkatan Prestasi Mahasiswa dari tahun ke tahun\",\n        description: \"Analisis Menunjukkan bahwa pada tahun ini meningkat sebanyak 13% \"\n      },\n      {\n        icon: \"heroicons:chart-bar\",\n        title: \"Peningkatan Mahasiswa Berprestasi Tahun 2023\",\n        description: \"Berdasarkan analisis Mahasiswa Menyumbang prestasi pada tahun ini sebanyak 200+ Mahasiswa\"\n      },\n      {\n        icon: \"heroicons:academic-cap\",\n        title: \"Dominasi Prestasi\",\n        description: \"Berdasarkan Analisis Prestasi Mahasiswa Vokasi lebih banyak ke Prestasi Akademik pada jenis Olahraga\"\n      }\n    ];\n    return (_ctx, _cache) => {\n      const _component_Icon = _resolveComponent(\"Icon\");\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _createElementVNode(\"div\", _hoisted_2, [\n          _hoisted_3,\n          _createElementVNode(\"div\", _hoisted_4, [\n            (_openBlock(), _createElementBlock(_Fragment, null, _renderList(items, (item, index) => {\n              return _createElementVNode(\"div\", {\n                key: index,\n                class: \"p-4 rounded space-y-2 border border-slate-800 hover:bg-[#FFC436] hover:border-none hover:text-black transition text-center\"\n              }, [\n                _createVNode(_component_Icon, {\n                  name: item.icon,\n                  size: \"3em\",\n                  class: \"text-white\"\n                }, null, 8, [\"name\"]),\n                _createElementVNode(\"h2\", _hoisted_5, _toDisplayString(item.title), 1),\n                _createElementVNode(\"p\", null, _toDisplayString(item.description), 1)\n              ]);\n            }), 64))\n          ])\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1702536589727,
+      "end": 1702536589913,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/components/section/Fitur.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, resolveComponent as _resolveComponent, createVNode as _createVNode, toDisplayString as _toDisplayString } from \"vue\"\n\nconst _hoisted_1 = {\n  id: \"fitur\",\n  class: \"pt-10 pb-10 md:pt-20\"\n}\nconst _hoisted_2 = { class: \"container space-y-12\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text-center\" }, [\n  /*#__PURE__*/_createElementVNode(\"h1\", { class: \"text-white text-xl md:text-2xl font-bold\" }, \"Analytics\"),\n  /*#__PURE__*/_createElementVNode(\"p\", { class: \"max-w-2xl mx-auto text-[#FFC436]\" }, \" Analisis Terkini Terkait Data yang diterima di SIMAPRES \")\n], -1)\nconst _hoisted_4 = { class: \"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4\" }\nconst _hoisted_5 = { class: \"text-lg md:text-xl text-white hover:text-black font-bold\" }\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Fitur',\n  setup(__props) {\n\nconst items = [\n  {\n    icon: \"heroicons:document-check\",\n    title: \"Peningkatan Prestasi Mahasiswa dari tahun ke tahun\",\n    description:\n      \"Analisis Menunjukkan bahwa pada tahun ini meningkat sebanyak 13% \",\n  },\n  {\n    icon: \"heroicons:chart-bar\",\n    title: \"Peningkatan Mahasiswa Berprestasi Tahun 2023\",\n    description:\n      \"Berdasarkan analisis Mahasiswa Menyumbang prestasi pada tahun ini sebanyak 200+ Mahasiswa\",\n  },\n  {\n    icon: \"heroicons:academic-cap\",\n    title: \"Dominasi Prestasi\",\n    description:\n      \"Berdasarkan Analisis Prestasi Mahasiswa Vokasi lebih banyak ke Prestasi Akademik pada jenis Olahraga\",\n  },\n];\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_Icon = _resolveComponent(\"Icon\")!\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        (_openBlock(), _createElementBlock(_Fragment, null, _renderList(items, (item, index) => {\n          return _createElementVNode(\"div\", {\n            key: index,\n            class: \"p-4 rounded space-y-2 border border-slate-800 hover:bg-[#FFC436] hover:border-none hover:text-black transition text-center\"\n          }, [\n            _createVNode(_component_Icon, {\n              name: item.icon,\n              size: \"3em\",\n              class: \"text-white\"\n            }, null, 8, [\"name\"]),\n            _createElementVNode(\"h2\", _hoisted_5, _toDisplayString(item.title), 1),\n            _createElementVNode(\"p\", null, _toDisplayString(item.description), 1)\n          ])\n        }), 64))\n      ])\n    ])\n  ]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,sBAAsB,qBAAqB,cAAc,aAAa,YAAY,WAAW,aAAa,YAAY,sBAAsB,qBAAqB,oBAAoB,mBAAmB,eAAe,cAAc,mBAAmB,wBAAwB;AAEzR,MAAM,aAAa;AAAA,EACjB,IAAI;AAAA,EACJ,OAAO;AACT;AACA,MAAM,aAAa,EAAE,OAAO,uBAAuB;AACnD,MAAM,aAA0B,oCAAoB,OAAO,EAAE,OAAO,cAAc,GAAG;AAAA,EACtE,oCAAoB,MAAM,EAAE,OAAO,2CAA2C,GAAG,WAAW;AAAA,EAC5F,oCAAoB,KAAK,EAAE,OAAO,mCAAmC,GAAG,2DAA2D;AAClJ,GAAG,EAAE;AACL,MAAM,aAAa,EAAE,OAAO,uDAAuD;AACnF,MAAM,aAAa,EAAE,OAAO,2DAA2D;AAGvF,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAEjB,UAAM,QAAQ;AAAA,MACZ;AAAA,QACE,MAAM;AAAA,QACN,OAAO;AAAA,QACP,aACE;AAAA,MACJ;AAAA,MACA;AAAA,QACE,MAAM;AAAA,QACN,OAAO;AAAA,QACP,aACE;AAAA,MACJ;AAAA,MACA;AAAA,QACE,MAAM;AAAA,QACN,OAAO;AAAA,QACP,aACE;AAAA,MACJ;AAAA,IACF;AAEA,WAAO,CAAC,MAAU,WAAgB;AAChC,YAAM,kBAAkB,kBAAkB,MAAM;AAEhD,aAAQ,WAAW,GAAG,oBAAoB,OAAO,YAAY;AAAA,QAC3D,oBAAoB,OAAO,YAAY;AAAA,UACrC;AAAA,UACA,oBAAoB,OAAO,YAAY;AAAA,aACpC,WAAW,GAAG,oBAAoB,WAAW,MAAM,YAAY,OAAO,CAAC,MAAM,UAAU;AACtF,qBAAO,oBAAoB,OAAO;AAAA,gBAChC,KAAK;AAAA,gBACL,OAAO;AAAA,cACT,GAAG;AAAA,gBACD,aAAa,iBAAiB;AAAA,kBAC5B,MAAM,KAAK;AAAA,kBACX,MAAM;AAAA,kBACN,OAAO;AAAA,gBACT,GAAG,MAAM,GAAG,CAAC,MAAM,CAAC;AAAA,gBACpB,oBAAoB,MAAM,YAAY,iBAAiB,KAAK,KAAK,GAAG,CAAC;AAAA,gBACrE,oBAAoB,KAAK,MAAM,iBAAiB,KAAK,WAAW,GAAG,CAAC;AAAA,cACtE,CAAC;AAAA,YACH,CAAC,GAAG,EAAE;AAAA,UACR,CAAC;AAAA,QACH,CAAC;AAAA,MACH,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1702536589913,
+      "end": 1702536589913,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702536589913,
+      "end": 1702536589913,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1702536589914,
+      "end": 1702536589914,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702536589914,
+      "end": 1702536589914,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536589914,
+      "end": 1702536589914,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702536589914,
+      "end": 1702536589914,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702536589914,
+      "end": 1702536589914,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702536589914,
+      "end": 1702536589914,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536589914,
+      "end": 1702536589914,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702536589914,
+      "end": 1702536589914,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702536589914,
+      "end": 1702536589914,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702536589914,
+      "end": 1702536589914,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702536589915,
+      "end": 1702536589915,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702536589915,
+      "end": 1702536589915,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702536589915,
+      "end": 1702536589915,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702536589915,
+      "end": 1702536589915,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702536589915,
+      "end": 1702536589915,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702536589915,
+      "end": 1702536589915,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702536589915,
+      "end": 1702536589915,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702536589915,
+      "end": 1702536589916,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702536589916,
+      "end": 1702536589916,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702536589916,
+      "end": 1702536589916,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702536589916,
+      "end": 1702536589916,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702536589916,
+      "end": 1702536589916,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/node_modules/nuxt-icon/dist/runtime/Icon.vue\";\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, resolveComponent as _resolveComponent, createVNode as _createVNode, toDisplayString as _toDisplayString } from \"vue\";\nconst _hoisted_1 = {\n  id: \"fitur\",\n  class: \"pt-10 pb-10 md:pt-20\"\n};\nconst _hoisted_2 = { class: \"container space-y-12\" };\nconst _hoisted_3 = /* @__PURE__ */ _createElementVNode(\"div\", { class: \"text-center\" }, [\n  /* @__PURE__ */ _createElementVNode(\"h1\", { class: \"text-white text-xl md:text-2xl font-bold\" }, \"Analytics\"),\n  /* @__PURE__ */ _createElementVNode(\"p\", { class: \"max-w-2xl mx-auto text-[#FFC436]\" }, \" Analisis Terkini Terkait Data yang diterima di SIMAPRES \")\n], -1);\nconst _hoisted_4 = { class: \"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4\" };\nconst _hoisted_5 = { class: \"text-lg md:text-xl text-white hover:text-black font-bold\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Fitur\",\n  setup(__props) {\n    const items = [\n      {\n        icon: \"heroicons:document-check\",\n        title: \"Peningkatan Prestasi Mahasiswa dari tahun ke tahun\",\n        description: \"Analisis Menunjukkan bahwa pada tahun ini meningkat sebanyak 13% \"\n      },\n      {\n        icon: \"heroicons:chart-bar\",\n        title: \"Peningkatan Mahasiswa Berprestasi Tahun 2023\",\n        description: \"Berdasarkan analisis Mahasiswa Menyumbang prestasi pada tahun ini sebanyak 200+ Mahasiswa\"\n      },\n      {\n        icon: \"heroicons:academic-cap\",\n        title: \"Dominasi Prestasi\",\n        description: \"Berdasarkan Analisis Prestasi Mahasiswa Vokasi lebih banyak ke Prestasi Akademik pada jenis Olahraga\"\n      }\n    ];\n    return (_ctx, _cache) => {\n      const _component_Icon = __nuxt_component_0;\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _createElementVNode(\"div\", _hoisted_2, [\n          _hoisted_3,\n          _createElementVNode(\"div\", _hoisted_4, [\n            (_openBlock(), _createElementBlock(_Fragment, null, _renderList(items, (item, index) => {\n              return _createElementVNode(\"div\", {\n                key: index,\n                class: \"p-4 rounded space-y-2 border border-slate-800 hover:bg-[#FFC436] hover:border-none hover:text-black transition text-center\"\n              }, [\n                _createVNode(_component_Icon, {\n                  name: item.icon,\n                  size: \"3em\",\n                  class: \"text-white\"\n                }, null, 8, [\"name\"]),\n                _createElementVNode(\"h2\", _hoisted_5, _toDisplayString(item.title), 1),\n                _createElementVNode(\"p\", null, _toDisplayString(item.description), 1)\n              ]);\n            }), 64))\n          ])\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1702536589916,
+      "end": 1702536589917,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702536589917,
+      "end": 1702536589917,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702536589917,
+      "end": 1702536589917,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702536589917,
+      "end": 1702536589917,
+      "order": "normal"
+    }
+  ]
+}

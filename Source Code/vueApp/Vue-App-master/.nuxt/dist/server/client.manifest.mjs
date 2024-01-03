@@ -1,0 +1,1 @@
+export { default } from "file:///D:/simapres/Proyek-Tugas-Website-SMT-3-17/Source%20Code/vueApp/Vue-App-master/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

@@ -1,0 +1,1 @@
+import{_ as e,c as n,o as s,a}from"./entry.893195d0.js";const c={},o=a("h1",null,"ini halaman Kepengurusan",-1),t=[o];function r(_,l){return s(),n("section",null,t)}const i=e(c,[["render",r]]);export{i as default};

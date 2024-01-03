@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data</title>
+    <link rel="stylesheet" href="/css/style_data.css" />
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Data AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/dbe56f0c47.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section id="navbar">
+      <div class="logo">
+        <img src="/image/logo-vokasi.png" alt="logo-navsidebar" />
+        <h2>SIMAPRES</h2>
+      </div>
+      <div class="items">
+        <ul>
+          <li>
+            <i class="fa-solid fa-house-user"></i><a href="index.html">Home</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-chart-simple"></i
+            ><a href="analisis.html">Analisis</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-database"></i><a href="data.html">Data</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-cloud-arrow-up"></i
+            ><a href="upload.html">Upload</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="interface">
+      <div class="navigation">
+        <div class="n1">
+          <div>
+            <i id="navbar-btn" class="fa-solid fa-bars"></i>
+          </div>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search" />
+          </div>
+        </div>
+        <div class="profile">
+          <i class="far fa-bell"></i>
+          <img src="/image/foto-profil-1.jpg" alt="" />
+        </div>
+      </div>
+      <h3 class="i-name">Data</h3>
+      <div class="board">
+        <table>
+          <caption></caption>
+          <thead>
+            <th>
+              <tr>
+                <td>Nama</td>
+                <td>NIM</td>
+                <td>Status</td>
+                <td>Keterangan</td>
+                <td>Prestasi</td>
+              </tr>
+            </th>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="people">
+                <img src="/image/foto-profil-1.jpg" alt="" />
+                <h5>Naufal Daffa Zaidan Anwar</h5>
+              </td>
+
+              <td class="people-nim">
+                <h5>223140707111101</h5>
+              </td>
+
+              <td class="people-active"><p>Active</p></td>
+              <td class="role">
+                <h5>Teknologi Informasi</h5>
+                <p>Kediri 3 Januari 2004</p>
+              </td>
+              <td class="edit">
+                <a href="#">Edit</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img src="/image/Foto e Hilda.png" alt="" />
+                <h5>Hilda Abiyyu Rahmadhani</h5>
+              </td>
+
+              <td class="people-nim">
+                <h5>22314070711345201</h5>
+              </td>
+
+              <td class="people-active"><p>Active</p></td>
+              <td class="role">
+                <h5>Teknologi Informasi</h5>
+                <p>Kediri 35 Februari 2004</p>
+              </td>
+              <td class="edit">
+                <a href="#">Edit</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img src="/image/Kadep Advokesma.png" alt="" />
+                <h5>Nisrina Kadep Advo</h5>
+              </td>
+
+              <td class="people-nim">
+                <h5>223140707114601</h5>
+              </td>
+
+              <td class="people-active"><p>Active</p></td>
+              <td class="role">
+                <h5>Teknologi Informasi</h5>
+                <p>Kediri 12 Desember 2004</p>
+              </td>
+              <td class="edit">
+                <a href="#">Edit</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img src="/image/Foto Bendahara_Nadiya.png" alt="" />
+                <h5>Nadiya Darma</h5>
+              </td>
+
+              <td class="people-nim">
+                <h5>2231407071123401</h5>
+              </td>
+
+              <td class="people-active"><p>Active</p></td>
+              <td class="role">
+                <h5>Teknologi Informasi</h5>
+                <p>Kediri 14 september 2004</p>
+              </td>
+              <td class="edit">
+                <a href="#">Edit</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img src="/image/Foto Kadep_DMB.png" alt="" />
+                <h5>Aji Santoso</h5>
+              </td>
+
+              <td class="people-nim">
+                <h5>223140707123101</h5>
+              </td>
+
+              <td class="people-active"><p>Active</p></td>
+              <td class="role">
+                <h5>Teknologi Informasi</h5>
+                <p>Kediri 34 Januari 2004</p>
+              </td>
+              <td class="edit">
+                <a href="#">Edit</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </body>
+
+  <script src="
+  https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js
+  "></script>
+
+  <script src="/js/chart.js"></script>
+
+  <script src="/js/pie.js"></script>
+
+  <script src="/js/line.js"></script>
+
+  <script src="/js/script.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+</html>

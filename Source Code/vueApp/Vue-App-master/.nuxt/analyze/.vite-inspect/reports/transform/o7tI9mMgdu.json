@@ -1,0 +1,221 @@
+{
+  "resolvedId": "/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/components/section/Tentang.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString } from \"vue\"\nimport _imports_0 from 'assets/images/logo-vokasi-simapres.jpg'\n\n\nconst _hoisted_1 = {\n  id: \"tentang\",\n  class: \"pt-10 md:pt-20\"\n}\nconst _hoisted_2 = { class: \"container space-y-12\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text-center\" }, [\n  /*#__PURE__*/_createElementVNode(\"h1\", { class: \"text-white font-poppins text-xl mb-4 md:text-2xl font-bold\" }, \" Infografis SIMAPRES \"),\n  /*#__PURE__*/_createElementVNode(\"p\", { class: \"max-w-2xl mx-auto text-lg font-light font-poppins text-[#FFC436]\" }, \" Informasi Terkait Beasiswa Dan Lomba Terkini \")\n], -1)\nconst _hoisted_4 = { class: \"flex gap-8 md:gap-10 md:flex-row flex-col-reverse\" }\nconst _hoisted_5 = { class: \"w-full md:w-2/3 space-y-4\" }\nconst _hoisted_6 = { class: \"text-lg md:text-xl text-white font-bold\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"w-full md:w-1/2\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_0,\n    alt: \"Preview\",\n    class: \"rounded-full shadow-lg w-[300px] mx-auto mt-24\"\n  })\n], -1)\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Tentang',\n  setup(__props) {\n\nconst items = [\n  {\n    title: \"Beasiswa ID Camp\",\n    description: \"Beasiswa Dari Indosat yang berkerja sama dengan Dicoding \",\n  },\n  {\n    title: \"Beasiswa Astra\",\n    description:\n      \"Menjelaskan Tentang Angkatan baru atau Generasi baru yang menciptakan Inovasi luar biasa kepada organisasi dan mahasiswa\",\n  },\n  {\n    title: \"Sambati UB\",\n    description: \"Acara Sambut Mahasiswa Baru Untuk Mengenal lingkungan Kampus\",\n  },\n  {\n    title: \"Technotion\",\n    description:\n      \"Event Besar yang ada di tahun ini dan memiliki berbagai macam event lagi dan Sambati menjadi Salah satunya\",\n  },\n];\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        _createElementVNode(\"div\", _hoisted_5, [\n          (_openBlock(), _createElementBlock(_Fragment, null, _renderList(items, (item, index) => {\n            return _createElementVNode(\"div\", {\n              key: index,\n              class: \"p-4 rounded space-y-2 border border-white hover:bg-[#FFC436] hover:border-none transition ease-in duration-300\"\n            }, [\n              _createElementVNode(\"h2\", _hoisted_6, _toDisplayString(item.title), 1),\n              _createElementVNode(\"p\", null, _toDisplayString(item.description), 1)\n            ])\n          }), 64))\n        ]),\n        _hoisted_7\n      ])\n    ])\n  ]))\n}\n}\n\n})",
+      "start": 1702536589721,
+      "end": 1702536589721
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702536589721,
+      "end": 1702536589721,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702536589721,
+      "end": 1702536589721,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702536589721,
+      "end": 1702536589721,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702536589721,
+      "end": 1702536589721,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString } from \"vue\";\nimport _imports_0 from \"assets/images/logo-vokasi-simapres.jpg\";\nconst _hoisted_1 = {\n  id: \"tentang\",\n  class: \"pt-10 md:pt-20\"\n};\nconst _hoisted_2 = { class: \"container space-y-12\" };\nconst _hoisted_3 = /* @__PURE__ */ _createElementVNode(\"div\", { class: \"text-center\" }, [\n  /* @__PURE__ */ _createElementVNode(\"h1\", { class: \"text-white font-poppins text-xl mb-4 md:text-2xl font-bold\" }, \" Infografis SIMAPRES \"),\n  /* @__PURE__ */ _createElementVNode(\"p\", { class: \"max-w-2xl mx-auto text-lg font-light font-poppins text-[#FFC436]\" }, \" Informasi Terkait Beasiswa Dan Lomba Terkini \")\n], -1);\nconst _hoisted_4 = { class: \"flex gap-8 md:gap-10 md:flex-row flex-col-reverse\" };\nconst _hoisted_5 = { class: \"w-full md:w-2/3 space-y-4\" };\nconst _hoisted_6 = { class: \"text-lg md:text-xl text-white font-bold\" };\nconst _hoisted_7 = /* @__PURE__ */ _createElementVNode(\"div\", { class: \"w-full md:w-1/2\" }, [\n  /* @__PURE__ */ _createElementVNode(\"img\", {\n    src: _imports_0,\n    alt: \"Preview\",\n    class: \"rounded-full shadow-lg w-[300px] mx-auto mt-24\"\n  })\n], -1);\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Tentang\",\n  setup(__props) {\n    const items = [\n      {\n        title: \"Beasiswa ID Camp\",\n        description: \"Beasiswa Dari Indosat yang berkerja sama dengan Dicoding \"\n      },\n      {\n        title: \"Beasiswa Astra\",\n        description: \"Menjelaskan Tentang Angkatan baru atau Generasi baru yang menciptakan Inovasi luar biasa kepada organisasi dan mahasiswa\"\n      },\n      {\n        title: \"Sambati UB\",\n        description: \"Acara Sambut Mahasiswa Baru Untuk Mengenal lingkungan Kampus\"\n      },\n      {\n        title: \"Technotion\",\n        description: \"Event Besar yang ada di tahun ini dan memiliki berbagai macam event lagi dan Sambati menjadi Salah satunya\"\n      }\n    ];\n    return (_ctx, _cache) => {\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _createElementVNode(\"div\", _hoisted_2, [\n          _hoisted_3,\n          _createElementVNode(\"div\", _hoisted_4, [\n            _createElementVNode(\"div\", _hoisted_5, [\n              (_openBlock(), _createElementBlock(_Fragment, null, _renderList(items, (item, index) => {\n                return _createElementVNode(\"div\", {\n                  key: index,\n                  class: \"p-4 rounded space-y-2 border border-white hover:bg-[#FFC436] hover:border-none transition ease-in duration-300\"\n                }, [\n                  _createElementVNode(\"h2\", _hoisted_6, _toDisplayString(item.title), 1),\n                  _createElementVNode(\"p\", null, _toDisplayString(item.description), 1)\n                ]);\n              }), 64))\n            ]),\n            _hoisted_7\n          ])\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1702536589721,
+      "end": 1702536589908,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/components/section/Tentang.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString } from \"vue\"\nimport _imports_0 from 'assets/images/logo-vokasi-simapres.jpg'\n\n\nconst _hoisted_1 = {\n  id: \"tentang\",\n  class: \"pt-10 md:pt-20\"\n}\nconst _hoisted_2 = { class: \"container space-y-12\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text-center\" }, [\n  /*#__PURE__*/_createElementVNode(\"h1\", { class: \"text-white font-poppins text-xl mb-4 md:text-2xl font-bold\" }, \" Infografis SIMAPRES \"),\n  /*#__PURE__*/_createElementVNode(\"p\", { class: \"max-w-2xl mx-auto text-lg font-light font-poppins text-[#FFC436]\" }, \" Informasi Terkait Beasiswa Dan Lomba Terkini \")\n], -1)\nconst _hoisted_4 = { class: \"flex gap-8 md:gap-10 md:flex-row flex-col-reverse\" }\nconst _hoisted_5 = { class: \"w-full md:w-2/3 space-y-4\" }\nconst _hoisted_6 = { class: \"text-lg md:text-xl text-white font-bold\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"w-full md:w-1/2\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_0,\n    alt: \"Preview\",\n    class: \"rounded-full shadow-lg w-[300px] mx-auto mt-24\"\n  })\n], -1)\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Tentang',\n  setup(__props) {\n\nconst items = [\n  {\n    title: \"Beasiswa ID Camp\",\n    description: \"Beasiswa Dari Indosat yang berkerja sama dengan Dicoding \",\n  },\n  {\n    title: \"Beasiswa Astra\",\n    description:\n      \"Menjelaskan Tentang Angkatan baru atau Generasi baru yang menciptakan Inovasi luar biasa kepada organisasi dan mahasiswa\",\n  },\n  {\n    title: \"Sambati UB\",\n    description: \"Acara Sambut Mahasiswa Baru Untuk Mengenal lingkungan Kampus\",\n  },\n  {\n    title: \"Technotion\",\n    description:\n      \"Event Besar yang ada di tahun ini dan memiliki berbagai macam event lagi dan Sambati menjadi Salah satunya\",\n  },\n];\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _createElementVNode(\"div\", _hoisted_4, [\n        _createElementVNode(\"div\", _hoisted_5, [\n          (_openBlock(), _createElementBlock(_Fragment, null, _renderList(items, (item, index) => {\n            return _createElementVNode(\"div\", {\n              key: index,\n              class: \"p-4 rounded space-y-2 border border-white hover:bg-[#FFC436] hover:border-none transition ease-in duration-300\"\n            }, [\n              _createElementVNode(\"h2\", _hoisted_6, _toDisplayString(item.title), 1),\n              _createElementVNode(\"p\", null, _toDisplayString(item.description), 1)\n            ])\n          }), 64))\n        ]),\n        _hoisted_7\n      ])\n    ])\n  ]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,sBAAsB,qBAAqB,cAAc,aAAa,YAAY,WAAW,aAAa,YAAY,sBAAsB,qBAAqB,mBAAmB,wBAAwB;AACrN,OAAO,gBAAgB;AAGvB,MAAM,aAAa;AAAA,EACjB,IAAI;AAAA,EACJ,OAAO;AACT;AACA,MAAM,aAAa,EAAE,OAAO,uBAAuB;AACnD,MAAM,aAA0B,oCAAoB,OAAO,EAAE,OAAO,cAAc,GAAG;AAAA,EACtE,oCAAoB,MAAM,EAAE,OAAO,6DAA6D,GAAG,uBAAuB;AAAA,EAC1H,oCAAoB,KAAK,EAAE,OAAO,mEAAmE,GAAG,gDAAgD;AACvK,GAAG,EAAE;AACL,MAAM,aAAa,EAAE,OAAO,oDAAoD;AAChF,MAAM,aAAa,EAAE,OAAO,4BAA4B;AACxD,MAAM,aAAa,EAAE,OAAO,0CAA0C;AACtE,MAAM,aAA0B,oCAAoB,OAAO,EAAE,OAAO,kBAAkB,GAAG;AAAA,EAC1E,oCAAoB,OAAO;AAAA,IACtC,KAAK;AAAA,IACL,KAAK;AAAA,IACL,OAAO;AAAA,EACT,CAAC;AACH,GAAG,EAAE;AAGL,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAEjB,UAAM,QAAQ;AAAA,MACZ;AAAA,QACE,OAAO;AAAA,QACP,aAAa;AAAA,MACf;AAAA,MACA;AAAA,QACE,OAAO;AAAA,QACP,aACE;AAAA,MACJ;AAAA,MACA;AAAA,QACE,OAAO;AAAA,QACP,aAAa;AAAA,MACf;AAAA,MACA;AAAA,QACE,OAAO;AAAA,QACP,aACE;AAAA,MACJ;AAAA,IACF;AAEA,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,oBAAoB,OAAO,YAAY;AAAA,QAC3D,oBAAoB,OAAO,YAAY;AAAA,UACrC;AAAA,UACA,oBAAoB,OAAO,YAAY;AAAA,YACrC,oBAAoB,OAAO,YAAY;AAAA,eACpC,WAAW,GAAG,oBAAoB,WAAW,MAAM,YAAY,OAAO,CAAC,MAAM,UAAU;AACtF,uBAAO,oBAAoB,OAAO;AAAA,kBAChC,KAAK;AAAA,kBACL,OAAO;AAAA,gBACT,GAAG;AAAA,kBACD,oBAAoB,MAAM,YAAY,iBAAiB,KAAK,KAAK,GAAG,CAAC;AAAA,kBACrE,oBAAoB,KAAK,MAAM,iBAAiB,KAAK,WAAW,GAAG,CAAC;AAAA,gBACtE,CAAC;AAAA,cACH,CAAC,GAAG,EAAE;AAAA,YACR,CAAC;AAAA,YACD;AAAA,UACF,CAAC;AAAA,QACH,CAAC;AAAA,MACH,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1702536589908,
+      "end": 1702536589908,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702536589908,
+      "end": 1702536589908,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1702536589908,
+      "end": 1702536589908,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702536589908,
+      "end": 1702536589908,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536589908,
+      "end": 1702536589908,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702536589908,
+      "end": 1702536589908,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702536589908,
+      "end": 1702536589908,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702536589908,
+      "end": 1702536589908,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536589908,
+      "end": 1702536589909,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702536589909,
+      "end": 1702536589909,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702536589909,
+      "end": 1702536589909,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702536589909,
+      "end": 1702536589909,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702536589909,
+      "end": 1702536589909,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702536589909,
+      "end": 1702536589909,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702536589909,
+      "end": 1702536589909,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702536589909,
+      "end": 1702536589909,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702536589909,
+      "end": 1702536589909,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702536589909,
+      "end": 1702536589909,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702536589909,
+      "end": 1702536589909,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702536589909,
+      "end": 1702536589910,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702536589910,
+      "end": 1702536589910,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702536589910,
+      "end": 1702536589910,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702536589910,
+      "end": 1702536589910,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702536589910,
+      "end": 1702536589910,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702536589910,
+      "end": 1702536589910,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702536589910,
+      "end": 1702536589910,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702536589910,
+      "end": 1702536589910,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702536589910,
+      "end": 1702536589910,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../assets/styles/loginform.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+</head>
+<body style="background-color: #FFC857;">
+     
+    <div style=" width: 45%; height: 100%; background-color:white; margin-right: 800px; ">
+    </div>
+<div class="container-signin">
+    <div class="wrapper" style="border-bottom-left-radius: 30px; border-top-left-radius: 30px; border-top-right-radius: 0; border-bottom-right-radius: 0; position: relative;">
+        <a href="login.html" >
+        <i class="fa fa-arrow-left" style="font-size: 24px; position: absolute; top: 40px; transform: translateY(-50%); left: 30px; color: white;"></i>
+        </a>
+        <img src="../assets/image/logo.svg" alt="vokasi">
+        <header>Welcome, <span>JUARA</span></header>
+        <form action="/auth/register" method = "POST">
+            <div class="field email">
+                <div class="input-area">
+                    <input type="email" placeholder="Email UB">
+                    <i class="icon fas fa-envelope"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Email can't be blank</div>
+            </div>
+            <div class="field password">
+                <div class="input-area">
+                    <input type="password" placeholder="Insert Password">
+                    <i class="icon fas fa-lock"></i>            
+                </div>
+                <div class="error error-txt">Password can't be blank</div>
+            </div>
+            <input type="submit" value="Signup">
+        </form>
+    </div>
+    <div class="signin-image" style="border-top-right-radius: 30px; border-bottom-right-radius: 30px; border-bottom-left-radius: 0; border-top-left-radius: 0;">
+        <img src="../assets/image/banner.jpeg" alt="">
+    </div>
+</div>
+<script src="script.js"></script>
+ 
+</body>
+</html>

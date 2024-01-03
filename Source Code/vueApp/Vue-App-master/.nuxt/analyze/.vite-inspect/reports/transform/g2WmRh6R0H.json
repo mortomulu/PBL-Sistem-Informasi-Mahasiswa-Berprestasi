@@ -1,0 +1,214 @@
+{
+  "resolvedId": "/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/components/section/Tentang.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n  <div id=\"tentang\" class=\"pt-10 md:pt-20\">\n    <div class=\"container space-y-12\">\n      <div class=\"text-center\">\n        <h1 class=\"text-white font-poppins text-xl mb-4 md:text-2xl font-bold\">\n          Infografis SIMAPRES\n        </h1>\n        <p\n          class=\"max-w-2xl mx-auto text-lg font-light font-poppins text-[#FFC436]\">\n          Informasi Terkait Beasiswa Dan Lomba Terkini\n        </p>\n      </div>\n      <div class=\"flex gap-8 md:gap-10 md:flex-row flex-col-reverse\">\n        <div class=\"w-full md:w-2/3 space-y-4\">\n          <div\n            v-for=\"(item, index) in items\"\n            :key=\"index\"\n            class=\"p-4 rounded space-y-2 border border-white hover:bg-[#FFC436] hover:border-none transition ease-in duration-300\">\n            <h2 class=\"text-lg md:text-xl text-white font-bold\">\n              {{ item.title }}\n            </h2>\n            <p>{{ item.description }}</p>\n          </div>\n        </div>\n        <div class=\"w-full md:w-1/2\">\n          <img\n            src=\"~/assets/images/logo-vokasi-simapres.jpg\"\n            alt=\"Preview\"\n            class=\"rounded-full shadow-lg w-[300px] mx-auto mt-24\" />\n        </div>\n      </div>\n    </div>\n  </div>\n</template>\n\n<script setup lang=\"ts\">\nconst items = [\n  {\n    title: \"Beasiswa ID Camp\",\n    description: \"Beasiswa Dari Indosat yang berkerja sama dengan Dicoding \",\n  },\n  {\n    title: \"Beasiswa Astra\",\n    description:\n      \"Menjelaskan Tentang Angkatan baru atau Generasi baru yang menciptakan Inovasi luar biasa kepada organisasi dan mahasiswa\",\n  },\n  {\n    title: \"Sambati UB\",\n    description: \"Acara Sambut Mahasiswa Baru Untuk Mengenal lingkungan Kampus\",\n  },\n  {\n    title: \"Technotion\",\n    description:\n      \"Event Besar yang ada di tahun ini dan memiliki berbagai macam event lagi dan Sambati menjadi Salah satunya\",\n  },\n];\n</script>\n",
+      "start": 1702536588859,
+      "end": 1702536589347,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702536589347,
+      "end": 1702536589347,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702536589347,
+      "end": 1702536589347,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702536589347,
+      "end": 1702536589347,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702536589347,
+      "end": 1702536589347,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702536589347,
+      "end": 1702536589347,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702536589347,
+      "end": 1702536589347,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702536589347,
+      "end": 1702536589347,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/components/section/Tentang.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/components/section/Tentang.vue?vue&type=script&setup=true&lang.ts\";\nexport default _sfc_main;\n",
+      "start": 1702536589347,
+      "end": 1702536589678,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702536589678,
+      "end": 1702536589678,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702536589678,
+      "end": 1702536589679,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702536589679,
+      "end": 1702536589679,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702536589679,
+      "end": 1702536589679,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702536589679,
+      "end": 1702536589679,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702536589679,
+      "end": 1702536589679,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702536589679,
+      "end": 1702536589679,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702536589679,
+      "end": 1702536589679,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702536589680,
+      "end": 1702536589680,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702536589680,
+      "end": 1702536589680,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702536589680,
+      "end": 1702536589680,
+      "order": "normal"
+    }
+  ]
+}

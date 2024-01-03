@@ -1,0 +1,268 @@
+{
+  "resolvedId": "/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/components/section/Tentang.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\nimport _imports_0 from 'assets/images/logo-vokasi-simapres.jpg'\n\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Tentang',\n  __ssrInlineRender: true,\n  setup(__props) {\n\nconst items = [\n  {\n    title: \"Beasiswa ID Camp\",\n    description: \"Beasiswa Dari Indosat yang berkerja sama dengan Dicoding \",\n  },\n  {\n    title: \"Beasiswa Astra\",\n    description:\n      \"Menjelaskan Tentang Angkatan baru atau Generasi baru yang menciptakan Inovasi luar biasa kepada organisasi dan mahasiswa\",\n  },\n  {\n    title: \"Sambati UB\",\n    description: \"Acara Sambut Mahasiswa Baru Untuk Mengenal lingkungan Kampus\",\n  },\n  {\n    title: \"Technotion\",\n    description:\n      \"Event Besar yang ada di tahun ini dan memiliki berbagai macam event lagi dan Sambati menjadi Salah satunya\",\n  },\n];\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    id: \"tentang\",\n    class: \"pt-10 md:pt-20\"\n  }, _attrs))}><div class=\"container space-y-12\"><div class=\"text-center\"><h1 class=\"text-white font-poppins text-xl mb-4 md:text-2xl font-bold\"> Infografis SIMAPRES </h1><p class=\"max-w-2xl mx-auto text-lg font-light font-poppins text-[#FFC436]\"> Informasi Terkait Beasiswa Dan Lomba Terkini </p></div><div class=\"flex gap-8 md:gap-10 md:flex-row flex-col-reverse\"><div class=\"w-full md:w-2/3 space-y-4\"><!--[-->`)\n  _ssrRenderList(items, (item, index) => {\n    _push(`<div class=\"p-4 rounded space-y-2 border border-white hover:bg-[#FFC436] hover:border-none transition ease-in duration-300\"><h2 class=\"text-lg md:text-xl text-white font-bold\">${\n      _ssrInterpolate(item.title)\n    }</h2><p>${\n      _ssrInterpolate(item.description)\n    }</p></div>`)\n  })\n  _push(`<!--]--></div><div class=\"w-full md:w-1/2\"><img${_ssrRenderAttr(\"src\", _imports_0)} alt=\"Preview\" class=\"rounded-full shadow-lg w-[300px] mx-auto mt-24\"></div></div></div></div>`)\n}\n}\n\n})",
+      "start": 1702536596019,
+      "end": 1702536596019,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/components/section/Tentang.vue"
+        ],
+        "sourcesContent": [
+          "<template>\n  <div id=\"tentang\" class=\"pt-10 md:pt-20\">\n    <div class=\"container space-y-12\">\n      <div class=\"text-center\">\n        <h1 class=\"text-white font-poppins text-xl mb-4 md:text-2xl font-bold\">\n          Infografis SIMAPRES\n        </h1>\n        <p\n          class=\"max-w-2xl mx-auto text-lg font-light font-poppins text-[#FFC436]\">\n          Informasi Terkait Beasiswa Dan Lomba Terkini\n        </p>\n      </div>\n      <div class=\"flex gap-8 md:gap-10 md:flex-row flex-col-reverse\">\n        <div class=\"w-full md:w-2/3 space-y-4\">\n          <div\n            v-for=\"(item, index) in items\"\n            :key=\"index\"\n            class=\"p-4 rounded space-y-2 border border-white hover:bg-[#FFC436] hover:border-none transition ease-in duration-300\">\n            <h2 class=\"text-lg md:text-xl text-white font-bold\">\n              {{ item.title }}\n            </h2>\n            <p>{{ item.description }}</p>\n          </div>\n        </div>\n        <div class=\"w-full md:w-1/2\">\n          <img\n            src=\"~/assets/images/logo-vokasi-simapres.jpg\"\n            alt=\"Preview\"\n            class=\"rounded-full shadow-lg w-[300px] mx-auto mt-24\" />\n        </div>\n      </div>\n    </div>\n  </div>\n</template>\n\n<script setup lang=\"ts\">\nconst items = [\n  {\n    title: \"Beasiswa ID Camp\",\n    description: \"Beasiswa Dari Indosat yang berkerja sama dengan Dicoding \",\n  },\n  {\n    title: \"Beasiswa Astra\",\n    description:\n      \"Menjelaskan Tentang Angkatan baru atau Generasi baru yang menciptakan Inovasi luar biasa kepada organisasi dan mahasiswa\",\n  },\n  {\n    title: \"Sambati UB\",\n    description: \"Acara Sambut Mahasiswa Baru Untuk Mengenal lingkungan Kampus\",\n  },\n  {\n    title: \"Technotion\",\n    description:\n      \"Event Besar yang ada di tahun ini dan memiliki berbagai macam event lagi dan Sambati menjadi Salah satunya\",\n  },\n];\n</script>\n"
+        ],
+        "names": [],
+        "mappings": ";;;;;;;;;;;AAmCwB;AACxB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACf,CAAC,CAAC,CAAC;AACH,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7E,CAAC,CAAC,CAAC,CAAC;AACJ,CAAC,CAAC,CAAC;AACH,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC5B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjI,CAAC,CAAC,CAAC,CAAC;AACJ,CAAC,CAAC,CAAC;AACH,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACxB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChF,CAAC,CAAC,CAAC,CAAC;AACJ,CAAC,CAAC,CAAC;AACH,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACxB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnH,CAAC,CAAC,CAAC,CAAC;AACJ,CAAC,CAAC;;;;;;;;;;;;;;;;;;"
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702536596019,
+      "end": 1702536596019,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702536596019,
+      "end": 1702536596019,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702536596019,
+      "end": 1702536596019,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702536596019,
+      "end": 1702536596019,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702536596054,
+      "end": 1702536596054,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702536596055,
+      "end": 1702536596055,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\";\nimport _imports_0 from \"assets/images/logo-vokasi-simapres.jpg\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Tentang\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    const items = [\n      {\n        title: \"Beasiswa ID Camp\",\n        description: \"Beasiswa Dari Indosat yang berkerja sama dengan Dicoding \"\n      },\n      {\n        title: \"Beasiswa Astra\",\n        description: \"Menjelaskan Tentang Angkatan baru atau Generasi baru yang menciptakan Inovasi luar biasa kepada organisasi dan mahasiswa\"\n      },\n      {\n        title: \"Sambati UB\",\n        description: \"Acara Sambut Mahasiswa Baru Untuk Mengenal lingkungan Kampus\"\n      },\n      {\n        title: \"Technotion\",\n        description: \"Event Besar yang ada di tahun ini dan memiliki berbagai macam event lagi dan Sambati menjadi Salah satunya\"\n      }\n    ];\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(`<div${_ssrRenderAttrs(_mergeProps({\n        id: \"tentang\",\n        class: \"pt-10 md:pt-20\"\n      }, _attrs))}><div class=\"container space-y-12\"><div class=\"text-center\"><h1 class=\"text-white font-poppins text-xl mb-4 md:text-2xl font-bold\"> Infografis SIMAPRES </h1><p class=\"max-w-2xl mx-auto text-lg font-light font-poppins text-[#FFC436]\"> Informasi Terkait Beasiswa Dan Lomba Terkini </p></div><div class=\"flex gap-8 md:gap-10 md:flex-row flex-col-reverse\"><div class=\"w-full md:w-2/3 space-y-4\"><!--[-->`);\n      _ssrRenderList(items, (item, index) => {\n        _push(`<div class=\"p-4 rounded space-y-2 border border-white hover:bg-[#FFC436] hover:border-none transition ease-in duration-300\"><h2 class=\"text-lg md:text-xl text-white font-bold\">${_ssrInterpolate(item.title)}</h2><p>${_ssrInterpolate(item.description)}</p></div>`);\n      });\n      _push(`<!--]--></div><div class=\"w-full md:w-1/2\"><img${_ssrRenderAttr(\"src\", _imports_0)} alt=\"Preview\" class=\"rounded-full shadow-lg w-[300px] mx-auto mt-24\"></div></div></div></div>`);\n    };\n  }\n});\n",
+      "start": 1702536596055,
+      "end": 1702536596116,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/components/section/Tentang.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\nimport _imports_0 from 'assets/images/logo-vokasi-simapres.jpg'\n\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Tentang',\n  __ssrInlineRender: true,\n  setup(__props) {\n\nconst items = [\n  {\n    title: \"Beasiswa ID Camp\",\n    description: \"Beasiswa Dari Indosat yang berkerja sama dengan Dicoding \",\n  },\n  {\n    title: \"Beasiswa Astra\",\n    description:\n      \"Menjelaskan Tentang Angkatan baru atau Generasi baru yang menciptakan Inovasi luar biasa kepada organisasi dan mahasiswa\",\n  },\n  {\n    title: \"Sambati UB\",\n    description: \"Acara Sambut Mahasiswa Baru Untuk Mengenal lingkungan Kampus\",\n  },\n  {\n    title: \"Technotion\",\n    description:\n      \"Event Besar yang ada di tahun ini dan memiliki berbagai macam event lagi dan Sambati menjadi Salah satunya\",\n  },\n];\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    id: \"tentang\",\n    class: \"pt-10 md:pt-20\"\n  }, _attrs))}><div class=\"container space-y-12\"><div class=\"text-center\"><h1 class=\"text-white font-poppins text-xl mb-4 md:text-2xl font-bold\"> Infografis SIMAPRES </h1><p class=\"max-w-2xl mx-auto text-lg font-light font-poppins text-[#FFC436]\"> Informasi Terkait Beasiswa Dan Lomba Terkini </p></div><div class=\"flex gap-8 md:gap-10 md:flex-row flex-col-reverse\"><div class=\"w-full md:w-2/3 space-y-4\"><!--[-->`)\n  _ssrRenderList(items, (item, index) => {\n    _push(`<div class=\"p-4 rounded space-y-2 border border-white hover:bg-[#FFC436] hover:border-none transition ease-in duration-300\"><h2 class=\"text-lg md:text-xl text-white font-bold\">${\n      _ssrInterpolate(item.title)\n    }</h2><p>${\n      _ssrInterpolate(item.description)\n    }</p></div>`)\n  })\n  _push(`<!--]--></div><div class=\"w-full md:w-1/2\"><img${_ssrRenderAttr(\"src\", _imports_0)} alt=\"Preview\" class=\"rounded-full shadow-lg w-[300px] mx-auto mt-24\"></div></div></div></div>`)\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,cAAc,mBAAmB;AAC1C,SAAS,iBAAiB,gBAAgB,kBAAkB,iBAAiB,kBAAkB,iBAAiB,iBAAiB,sBAAsB;AACvJ,OAAO,gBAAgB;AAIvB,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,mBAAmB;AAAA,EACnB,MAAM,SAAS;AAEjB,UAAM,QAAQ;AAAA,MACZ;AAAA,QACE,OAAO;AAAA,QACP,aAAa;AAAA,MACf;AAAA,MACA;AAAA,QACE,OAAO;AAAA,QACP,aACE;AAAA,MACJ;AAAA,MACA;AAAA,QACE,OAAO;AAAA,QACP,aAAa;AAAA,MACf;AAAA,MACA;AAAA,QACE,OAAO;AAAA,QACP,aACE;AAAA,MACJ;AAAA,IACF;AAEA,WAAO,CAAC,MAAU,OAAW,SAAa,WAAgB;AACxD,YAAM,OAAO,gBAAgB,YAAY;AAAA,QACvC,IAAI;AAAA,QACJ,OAAO;AAAA,MACT,GAAG,MAAM,CAAC,CAAC,iZAAiZ;AAC5Z,qBAAe,OAAO,CAAC,MAAM,UAAU;AACrC,cAAM,mLACJ,gBAAgB,KAAK,KAAK,CAC5B,WACE,gBAAgB,KAAK,WAAW,CAClC,YAAY;AAAA,MACd,CAAC;AACD,YAAM,kDAAkD,eAAe,OAAO,UAAU,CAAC,gGAAgG;AAAA,IAC3L;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1702536596116,
+      "end": 1702536596116,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702536596116,
+      "end": 1702536596116,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1702536596116,
+      "end": 1702536596116,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702536596116,
+      "end": 1702536596116,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536596116,
+      "end": 1702536596116,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536596116,
+      "end": 1702536596116,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702536596116,
+      "end": 1702536596117,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702536596116,
+      "end": 1702536596117,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702536596117,
+      "end": 1702536596117,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536596117,
+      "end": 1702536596117,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702536596117,
+      "end": 1702536596117,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702536596117,
+      "end": 1702536596117,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702536596117,
+      "end": 1702536596117,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702536596117,
+      "end": 1702536596117,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702536596117,
+      "end": 1702536596117,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702536596117,
+      "end": 1702536596117,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702536596117,
+      "end": 1702536596117,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702536596117,
+      "end": 1702536596117,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702536596117,
+      "end": 1702536596117,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702536596117,
+      "end": 1702536596118,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702536596117,
+      "end": 1702536596118,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702536596118,
+      "end": 1702536596118,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702536596118,
+      "end": 1702536596118,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702536596118,
+      "end": 1702536596118,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702536596118,
+      "end": 1702536596118,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702536596118,
+      "end": 1702536596118,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702536596118,
+      "end": 1702536596118,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702536596118,
+      "end": 1702536596119,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702536596119,
+      "end": 1702536596119,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702536596119,
+      "end": 1702536596120,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702536596120,
+      "end": 1702536596120,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702536596120,
+      "end": 1702536596120,
+      "order": "normal"
+    }
+  ]
+}

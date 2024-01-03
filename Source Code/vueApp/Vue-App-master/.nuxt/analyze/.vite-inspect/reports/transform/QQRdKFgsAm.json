@@ -1,0 +1,214 @@
+{
+  "resolvedId": "/Users/naufaldaffazaidananwar/Documents/GitHub/Proyek-Tugas-Website-SMT-3/Source Code/vueApp/Vue-App-master/components/section/Cv.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n  <section class=\"flex flex-col items-center justify-center p-6 w-5/6\">\n    <div class=\"flex flex-col items-center justify-center\">\n      <img\n        src=\"~/assets/images/Logo Vokasi.png\"\n        alt=\"foto-profil\"\n        class=\"rounded-full w-[100px] bg-[#fff]\" />\n      <h2 class=\"font-semibold text-base\">Naufal Daffa Zaidan Anwar</h2>\n    </div>\n  </section>\n</template>\n",
+      "start": 1702536588839,
+      "end": 1702536589316,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702536589317,
+      "end": 1702536589317,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702536589317,
+      "end": 1702536589317,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702536589317,
+      "end": 1702536589317,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702536589317,
+      "end": 1702536589317,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702536589317,
+      "end": 1702536589317,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702536589317,
+      "end": 1702536589317,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702536589317,
+      "end": 1702536589317,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from 'assets/images/Logo Vokasi.png'\n\n\nconst _hoisted_1 = { class: \"flex flex-col items-center justify-center p-6 w-5/6\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"flex flex-col items-center justify-center\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_0,\n    alt: \"foto-profil\",\n    class: \"rounded-full w-[100px] bg-[#fff]\"\n  }),\n  /*#__PURE__*/_createElementVNode(\"h2\", { class: \"font-semibold text-base\" }, \"Naufal Daffa Zaidan Anwar\")\n], -1)\nconst _hoisted_3 = [\n  _hoisted_2\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, _hoisted_3))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1702536589317,
+      "end": 1702536589319,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702536589319,
+      "end": 1702536589319,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536589319,
+      "end": 1702536589319,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702536589319,
+      "end": 1702536589319,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702536589319,
+      "end": 1702536589319,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702536589319,
+      "end": 1702536589319,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702536589319,
+      "end": 1702536589319,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702536589319,
+      "end": 1702536589319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702536589319,
+      "end": 1702536589319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702536589319,
+      "end": 1702536589319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702536589319,
+      "end": 1702536589319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702536589319,
+      "end": 1702536589319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702536589319,
+      "end": 1702536589319,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702536589320,
+      "end": 1702536589320,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702536589320,
+      "end": 1702536589320,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702536589320,
+      "end": 1702536589320,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702536589320,
+      "end": 1702536589320,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702536589320,
+      "end": 1702536589320,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702536589320,
+      "end": 1702536589320,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702536589320,
+      "end": 1702536589320,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702536589320,
+      "end": 1702536589320,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702536589320,
+      "end": 1702536589320,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702536589320,
+      "end": 1702536589322,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702536589322,
+      "end": 1702536589322,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702536589322,
+      "end": 1702536589322,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702536589322,
+      "end": 1702536589322,
+      "order": "normal"
+    }
+  ]
+}
